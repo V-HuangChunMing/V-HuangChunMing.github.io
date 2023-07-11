@@ -102,6 +102,7 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: git
   repo: https://github.com/V-HuangChunMing/V-HuangChunMing.github.io
+  # repo: git@github.com:V-HuangChunMing/V-HuangChunMing.github.io.git
   branch: master

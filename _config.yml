@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: V.MingのWebsite
+subtitle: 'V.Ming'
+description: '个人小站'
+keywords: Robotic
+author: V.Ming
 language: zh-CN
 timezone: ''
 
@@ -102,101 +102,6 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+  type: 'git'
   repo: https://github.com/V-HuangChunMing/V-HuangChunMing.github.io
   branch: master
-
-
-# githubEmojis:
-#   enable: true
-#   className: github-emoji
-#   inject: true
-#   styles:
-#   customEmojis:
-
-# postInfo:
-#   date: true
-#   update: false
-#   wordCount: false # 设置文章字数统计为 true.
-#   totalCount: false # 设置站点文章总字数统计为 true.
-#   min2read: false # 阅读时长.
-#   readCount: false # 阅读次数.
-
-
-
-# music:
-#   enable: true
-   # 非吸底模式有效
-#     enable: true
-#     show: 听听音乐
-#   server: netease   # require music platform: netease, tencent, kugou, xiami, baidu
-#   type: playlist    # require song, playlist, album, search, artist
-#   id: 503838841     # require song id / playlist id / album id / search keyword
-#   fixed: false      # 开启吸底模式
-#   autoplay: false   # 是否自动播放
-#   theme: '#42b983'
-#   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
-#   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
-#   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-#   volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-#   listFolded: true  # 列表默认折叠
-
-# permalink_pinyin:
-#   enable: true
-#   separator: '-' # default: '-'
-
-
-# search:
-#   path: search.xml
-#   field: post
-
-
-# highlight:
-#   enable: false
-#   line_number: true
-#   auto_detect: false
-#   tab_replace: ''
-#   wrap: true
-#   hljs: false
-
-# prismjs:
-#   enable: true
-#   preprocess: true
-#   line_number: true
-#   tab_replace: ''
-
-
-# menu:
-#   Index:
-#     url: /
-#     icon: fas fa-home
-#   Tags:
-#     url: /tags
-#     icon: fas fa-tags
-#   Categories:
-#     url: /categories
-#     icon: fas fa-bookmark
-#   Archives:
-#     url: /archives
-#     icon: fas fa-archive
-#   About:
-#     url: /about
-#     icon: fas fa-user-circle-o
-#   Friends:
-#     url: /friends
-#     icon: fas fa-address-book
-#   Medias:
-#     icon: fas fa-list
-#     children:
-#       - name: Music
-#         url: /music
-#         icon: fas fa-music
-#       - name: Movies
-#         url: /movies
-#         icon: fas fa-film
-#       - name: Books
-#         url: /books
-#         icon: fas fa-book
-#       - name: Galleries
-#         url: /galleries
-#         icon: fas fa-image
